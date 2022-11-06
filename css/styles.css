@@ -6,10 +6,12 @@
 
 h1 {
 	font-family: Brushstroke;
+	font-weight: bold;
 	color: #000000;
 }
 
 h3 {
+	font-weight: bold;
 	text-align: center;
 }
 
@@ -26,7 +28,6 @@ p {
 
 section {
 	border:	0px;
-	background-color: #777777;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -42,6 +43,7 @@ hr {
 #chicken-div {
   margin-bottom: 5px;
   margin-top: 5px;
+
 }
 
 #beef-div {
@@ -60,7 +62,7 @@ hr {
 
 #header-nav {
   border: 0;
-  background-color: #6e6e6e;
+  background-color: #00ffd5;
   color: #000000;
   margin-bottom: 0;
 }
@@ -85,12 +87,12 @@ hr {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -35px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .nav-header {
-  background-color: #6e6e6e;
-  padding-bottom: 5px;
+  background-color: #00ffd5;
+  padding-bottom: 10px;
 }
 
 .resto-name {
@@ -107,4 +109,16 @@ hr {
 .visible-xs {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.chicken-sec {
+	background-color: #aa8818;
+}
+
+.beef-sec {
+	background-color: #864c00;
+}
+
+.sushi-sec {
+	background-color: #307502;
 }
