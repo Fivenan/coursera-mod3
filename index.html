@@ -5,24 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-<body>
+  <body>
+    <header class="nav-header">
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <p class="resto-name">Food, LLC</p>
+            </div>
+  
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+             <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li class="text-center">
+                <a href="#chicken-div"><p class="item">Chicken</p></a>
+                <hr class="visible-xs">
+              </li>            
+              <li class="text-center beef-item">
+                <a href="#beef-div"><p class="item">Beef</p></a>
+                <hr class="visible-xs">
+              </li>
+              <li class="text-center sushi-item">
+                <a href="#sushi-div"><p class="item">Sushi</p></a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </nav>
+      </header>
 
-  <h1>Hello Coursera!</h1>
+    <h1 class="text-center">Our Menu</h1>
+
+    <div class="row container container-fluid">
+    <div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
+      <section>
+        <h3>Chicken</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit ante, sagittis ut rhoncus vel, molestie vel risus. Aenean sit amet est efficitur, facilisis mauris scelerisque, finibus neque. Nulla vitae nulla ex. Aenean fringilla lorem nibh, sit amet cursus eros lacinia scelerisque. Nulla et ultrices tortor. Nullam vel purus tellus. Duis mollis ex in nisl placerat mollis. Fusce tincidunt magna neque, et condimentum augue dignissim ac. Sed scelerisque elit tortor, nec cursus velit pulvinar non. Mauris vel purus sit amet orci suscipit egestas non a dui. In faucibus quis eros a consequat. Vivamus congue rutrum erat, id ornare ipsum lobortis vel. Etiam porttitor, dolor placerat hendrerit sollicitudin, turpis erat consectetur dui, imperdiet tincidunt enim nisl eget orci. Aenean imperdiet quam in libero aliquet dapibus.
+        </p>
+      </section>
+    </div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
+		<section>
+      <h3>Beef</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis, purus eget vehicula auctor, mi ipsum posuere risus, vel rhoncus arcu felis vel sapien. Curabitur sollicitudin dolor nisi, vel porta nulla rutrum pellentesque. Duis eu nisl dolor. Sed ornare diam varius felis dictum mollis. Phasellus quam ex, ultrices vitae ultrices a, rhoncus a risus. Sed quis lectus sed est posuere cursus ac non nulla. In vitae nunc semper neque venenatis feugiat. Curabitur vestibulum velit bibendum lorem venenatis fermentum. In leo turpis, venenatis nec posuere eu, volutpat vitae tortor. Integer porta mauris eros, nec elementum urna cursus sed. Integer nec tellus condimentum, lacinia lectus vel, vulputate dui. Maecenas lobortis leo quis est efficitur blandit. Ut vel ornare augue. Pellentesque enim nunc, aliquam dapibus tellus elementum, condimentum bibendum turpis. Quisque id vehicula turpis.
+      </p>
+		</section>
+	</div>
+	<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+		<section>
+      <h3>Sushi</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt elit odio, a rutrum tellus pharetra sit amet. Nulla neque urna, interdum ut efficitur eu, pellentesque bibendum diam. Proin pulvinar felis aliquet, dignissim diam in, porta risus. Suspendisse pretium urna eu nisi commodo ultricies. Sed ante leo, consequat at mollis vitae, luctus sed lacus. Fusce placerat felis ut nunc ultricies consectetur. Phasellus vitae nibh faucibus augue eleifend condimentum ac vel ipsum. Ut in eleifend lacus. Quisque ultricies dui nec est lacinia, eu interdum augue fermentum. Pellentesque et venenatis neque, et placerat dui. Suspendisse a aliquet quam. Proin interdum id justo ut vestibulum. Fusce ullamcorper lorem a magna sollicitudin, ut ornare elit interdum. Curabitur vitae risus a libero semper pharetra. Integer eget mattis dui.
+      </p>
+		</section>
+	</div>
+	</div>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
